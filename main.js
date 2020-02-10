@@ -39,7 +39,7 @@ class Ship {
     this.crew = [];    
   }
 
-  //ship function, check crew, no crew no mission.
+  //mission statement function, check crew, no crew no mission.
   missionStatement()
   {
     if(this.crew.length==0)
